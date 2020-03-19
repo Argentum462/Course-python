@@ -1,0 +1,2 @@
+def MinDivisor(n):
+    

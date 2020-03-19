@@ -1,5 +1,7 @@
+# Даны два действительных числа x и y. Проверьте, принадлежит ли точка
+# с координатами (x,y) заштрихованному ромбу (-1:1).
 def IsPointInSquare(x, y):
-    return abs((x * y) / 2) <= x and abs((x * y) / 2) <= y
+    return abs(x) + abs(y) <= 1
 
 
 a, b = float(input()), float(input())
